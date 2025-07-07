@@ -77,6 +77,15 @@ export default function BentoCard() {
                 border: "1px solid hsl(var(--border))"
               }}
               labelStyle={{ color: "hsl(var(--foreground))" }}
+              formatter={(value: number) => [
+                new Intl.NumberFormat('en-US', {
+                  style: 'currency',
+                  currency: 'USD',
+                  minimumFractionDigits: 2,
+                  maximumFractionDigits: 2
+                }).format(value),
+                'Value'
+              ]}
             />
             <Area 
               type="monotone" 
