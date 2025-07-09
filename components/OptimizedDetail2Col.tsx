@@ -166,18 +166,18 @@ export default function OptimizedDetail2Col() {
       </nav>
 
       {/* Page Header */}
-      <header className="border-b py-4 sm:py-6 px-4 sm:px-6">
-        <div className="container mx-auto flex flex-col gap-4 sm:gap-6">
+      <header className="border-b py-3 sm:py-4 md:py-6">
+        <div className="container mx-auto px-4 sm:px-6 flex flex-col gap-3 sm:gap-4 md:gap-6">
           <Breadcrumb>
-            <BreadcrumbList className="flex items-center gap-2 sm:gap-2.5 text-xs sm:text-sm">
+            <BreadcrumbList className="flex items-center gap-1.5 sm:gap-2 md:gap-2.5 text-xs sm:text-sm leading-tight">
               <BreadcrumbItem>
-                <BreadcrumbLink href="#" className="text-muted-foreground">
+                <BreadcrumbLink href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Home
                 </BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbLink href="#" className="text-muted-foreground">
+                <BreadcrumbLink href="#" className="text-muted-foreground hover:text-foreground transition-colors">
                   Events
                 </BreadcrumbLink>
               </BreadcrumbItem>
@@ -188,27 +188,27 @@ export default function OptimizedDetail2Col() {
             </BreadcrumbList>
           </Breadcrumb>
 
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 sm:gap-3">
             <div className="flex items-center gap-2 sm:gap-3">
-              <h1 className="text-2xl sm:text-3xl font-bold">PresidentvsElon</h1>
-              <div className="flex items-center gap-1">
-                <Badge className="transition-transform duration-200 cursor-pointer text-xs sm:text-sm">$PVE</Badge>
+              <h1 className="text-xl sm:text-2xl md:text-3xl font-bold leading-tight">PresidentvsElon</h1>
+              <div className="flex items-center gap-1 sm:gap-1.5">
+                <Badge className="transition-transform duration-200 cursor-pointer text-xs sm:text-sm px-2 py-0.5">$PVE</Badge>
                 <div className="flex items-center gap-0.5 hover:opacity-80 transition-opacity duration-200 cursor-pointer">
                   <Image 
                     src="/Xlogo.png"
                     alt="X"
                     width={12}
                     height={12}
-                    className="h-3 w-3"
+                    className="h-3 w-3 sm:h-3.5 sm:w-3.5"
                     quality={50}
                     loading="eager"
                   />
-                  <span className="text-xs font-semibold">@PresidentvsElon</span>
+                  <span className="text-xs sm:text-sm font-semibold">@PresidentvsElon</span>
                 </div>
               </div>
             </div>
 
-            <p className="text-sm sm:text-base text-muted-foreground max-w-2xl">
+            <p className="text-sm sm:text-base text-muted-foreground max-w-2xl leading-relaxed">
               Trump and Elon are set to deliver a riveting live debate on the subject of H1B visas. Their contrasting views promise to captivate audiences worldwide, especially as fans of both eagerly anticipate the clash of these two influential voices.
             </p>
           </div>
