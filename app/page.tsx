@@ -1,7 +1,7 @@
 "use client"
 
-import Detail2Col from "../components/Detail2Col"
+import OptimizedDetail2Col from "../components/OptimizedDetail2Col"
 
 export default function Page() {
-  return <Detail2Col />
+  return <OptimizedDetail2Col />
 }
