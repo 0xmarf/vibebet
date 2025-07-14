@@ -49,12 +49,11 @@ export function formatTooltipTimestamp(date: Date): string {
 /**
  * Generates time labels for the X-axis (T, T+6hrs, T+12hrs, T+18hrs, T+24hrs)
  */
-export function generateTimeLabels(startTime: Date): string[] {
+export function generateTimeLabels(): string[] {
   const labels: string[] = [];
   const intervals = [0, 6, 12, 18, 24];
   
   for (const hours of intervals) {
-    const time = new Date(startTime.getTime() + hours * 60 * 60 * 1000);
     if (hours === 0) {
       labels.push('T');
     } else {

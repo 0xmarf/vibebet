@@ -2,7 +2,6 @@ import React from "react";
 import "./ProBlocksPageHeader2BreakpointDesktop.css";
 import { IconChevronRight } from "../IconChevronRight/IconChevronRight";
 import { BreadcrumbBreadcrumbItemVariantLinkStateDefault } from "../BreadcrumbBreadcrumbItemVariantLinkStateDefault/BreadcrumbBreadcrumbItemVariantLinkStateDefault";
-import { BreadcrumbBreadcrumbItemVariantEllipsisStateDefault } from "../BreadcrumbBreadcrumbItemVariantEllipsisStateDefault/BreadcrumbBreadcrumbItemVariantEllipsisStateDefault";
 import { BreadcrumbSizeMd } from "../BreadcrumbSizeMd/BreadcrumbSizeMd";
 import { IconCircle } from "../IconCircle/IconCircle";
 import { ButtonVariantOutlineStateDefaultSizeDefault } from "../ButtonVariantOutlineStateDefaultSizeDefault/ButtonVariantOutlineStateDefaultSizeDefault";
@@ -17,9 +16,7 @@ interface ProBlocksPageHeader2BreakpointDesktopProps {
   button2?: boolean;
   button3?: boolean;
   button4?: boolean;
-  pageSelect?: boolean;
   breakpoint?: string;
-  visibleComponent?: React.ReactNode;
   className?: string;
 }
 
@@ -32,11 +29,8 @@ export const ProBlocksPageHeader2BreakpointDesktop: React.FC<ProBlocksPageHeader
   button2 = true,
   button3 = true,
   button4 = true,
-  pageSelect = false,
   breakpoint = "desktop",
-  visibleComponent = undefined,
-  className = "",
-  ...props
+  className = ""
 }) => {
   const variantsClassName = "breakpoint-" + breakpoint;
 
@@ -64,8 +58,6 @@ export const ProBlocksPageHeader2BreakpointDesktop: React.FC<ProBlocksPageHeader
               variant="link"
             />
           }
-          breadcrumbBreadcrumbItembreadcrumbText="Home"
-          breadcrumbBreadcrumbItemvariant="link"
           className="breadcrumb-instance"
         />
         <div className="flex">

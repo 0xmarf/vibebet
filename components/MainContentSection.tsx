@@ -20,12 +20,12 @@ export const MainContentSection = (): React.JSX.Element => {
               <span className="text-red-500">Price</span>
               <span className="text-black"> meets </span>
               <span className="text-green-500">Popularity</span>
-              <span className="text-black">. Trade what's trending on X.</span>
+              <span className="text-black">. Trade what&apos;s trending on X.</span>
             </h1>
             
             <p className="text-base text-gray-600 leading-relaxed max-w-3xl">
-              This page tracks a trending topic's tweet count and its corresponding IFT price 
-              from the moment it appears in X's U.S. Top 50. Data updates hourly and topics 
+              This page tracks a trending topic&apos;s tweet count and its corresponding IFT price 
+              from the moment it appears in X&apos;s U.S. Top 50. Data updates hourly and topics 
               remain on the chart for up to 24 hours.
             </p>
           </div>

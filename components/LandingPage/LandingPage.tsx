@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { cn } from "@/lib/utils";
 import ChartHeader from "../ChartHeader";
 import ChartRow from "../ChartRow";
@@ -14,7 +13,6 @@ import { AvatarTypeImageSize12 } from "../AvatarTypeImageSize12/AvatarTypeImageS
 import { IconWallet } from "../IconWallet/IconWallet";
 import { ButtonVariantDefaultStateDefaultSizeDefault } from "../ButtonVariantDefaultStateDefaultSizeDefault/ButtonVariantDefaultStateDefaultSizeDefault";
 import { ProBlocksPageHeader2BreakpointDesktop } from "../ProBlocksPageHeader2BreakpointDesktop/ProBlocksPageHeader2BreakpointDesktop";
-import { TableHeadRightTextAlignNoStateDefault } from "../TableHeadRightTextAlignNoStateDefault/TableHeadRightTextAlignNoStateDefault";
 
 interface LandingPageProps {
   className?: string;
@@ -66,7 +64,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className = "" }) => {
               <span style={{ color: '#ef4444' }}>Price</span>
               <span> meets </span>
               <span style={{ color: '#22c55e' }}>Popularity</span>
-              <span>. Trade what's trending on X.</span>
+              <span>. Trade what&apos;s trending on X.</span>
             </>
           }
           descriptionText="This page tracks a trending topic's tweet count and its corresponding IFT price from the moment it appears in X's U.S. Top 50. Data updates hourly and topics remain on the chart for up to 24 hours."
@@ -74,7 +72,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({ className = "" }) => {
           button2={false}
           button3={false}
           button4={false}
-          visibleComponent={false}
           className="pro-blocks-page-header-2-instance"
         />
         <div className="div">

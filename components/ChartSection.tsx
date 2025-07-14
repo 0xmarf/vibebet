@@ -1,6 +1,6 @@
 "use client"
 
-import { CartesianGrid, XAxis, YAxis, Tooltip, Area, AreaChart, ResponsiveContainer, ComposedChart, Line } from "recharts"
+import { CartesianGrid, XAxis, YAxis, Tooltip, Area, ResponsiveContainer, ComposedChart, Line } from "recharts"
 import { generateChartData, formatTooltipTimestamp, formatPrice, formatTweetCount, TOPIC_CONFIGS } from "@/lib/chartUtils"
 
 interface ChartSectionProps {
@@ -69,7 +69,7 @@ export default function ChartSection({ topicKey = 'epstein' }: ChartSectionProps
               boxShadow: "0 4px 6px -1px rgb(0 0 0 / 0.1)"
             }}
             labelStyle={{ color: "hsl(var(--foreground))" }}
-            formatter={(value: number, name: string, props: any) => {
+            formatter={(value: number, name: string) => {
               if (name === 'tweetCount') {
                 return [formatTweetCount(value), 'Tweet Count'];
               } else if (name === 'price') {
@@ -77,7 +77,7 @@ export default function ChartSection({ topicKey = 'epstein' }: ChartSectionProps
               }
               return [value, name];
             }}
-            labelFormatter={(label: string, payload: any) => {
+            labelFormatter={(label: string, payload) => {
               if (payload && payload.length > 0) {
                 const data = payload[0].payload;
                 return formatTooltipTimestamp(data.fullTimestamp);

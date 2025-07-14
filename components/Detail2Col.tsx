@@ -231,7 +231,7 @@ export default function Detail2Col() {
 
                   <CardContent className="px-6">
                     <p className="text-card-foreground">
-                      Actually, I've been advocating for ending ALL subsidies for years. Let's do it. Also, I'm not from South Africa - I'm from Mars 🚀 But in all seriousness, subsidies distort markets. Let's compete on merit alone. Tesla doesn't need subsidies to win.
+                      Actually, I&apos;ve been advocating for ending ALL subsidies for years. Let&apos;s do it. Also, I&apos;m not from South Africa - I&apos;m from Mars 🚀 But in all seriousness, subsidies distort markets. Let&apos;s compete on merit alone. Tesla doesn&apos;t need subsidies to win.
                     </p>
                   </CardContent>
 
@@ -324,7 +324,7 @@ export default function Detail2Col() {
 
                     <CardContent className="px-6">
                       <p className="text-card-foreground">
-                        We must have a serious discussion about government subsidies and their role in advancing American innovation. The fight between political leaders should not overshadow the importance of clean energy and space exploration for our nation's future. Let's focus on policy, not personality.
+                        We must have a serious discussion about government subsidies and their role in advancing American innovation. The fight between political leaders should not overshadow the importance of clean energy and space exploration for our nation&apos;s future. Let&apos;s focus on policy, not personality.
                       </p>
                     </CardContent>
 
@@ -420,7 +420,7 @@ export default function Detail2Col() {
 
                     <CardContent className="px-6">
                       <p className="text-card-foreground">
-                        This whole Trump vs Elon thing is wild. These are two guys who have completely changed their respective industries, and now they're beefing on social media. Jamie, pull up that clip of Elon smoking weed on the podcast. What a timeline we're living in.
+                        This whole Trump vs Elon thing is wild. These are two guys who have completely changed their respective industries, and now they&apos;re beefing on social media. Jamie, pull up that clip of Elon smoking weed on the podcast. What a timeline we&apos;re living in.
                       </p>
                     </CardContent>
 
@@ -559,7 +559,7 @@ export default function Detail2Col() {
 
                     <CardContent className="px-6">
                       <p className="text-card-foreground">
-                        Wait, so we're just going to ignore that fossil fuel companies receive billions in subsidies annually? And the military-industrial complex? But suddenly subsidies for clean energy and space exploration are the problem? Let's have an honest conversation about ALL corporate welfare.
+                        Wait, so we&apos;re just going to ignore that fossil fuel companies receive billions in subsidies annually? And the military-industrial complex? But suddenly subsidies for clean energy and space exploration are the problem? Let&apos;s have an honest conversation about ALL corporate welfare.
                       </p>
                     </CardContent>
 
@@ -604,7 +604,7 @@ export default function Detail2Col() {
 
                     <CardContent className="px-6">
                       <p className="text-card-foreground">
-                        FACTS: 1) Government subsidies distort free market competition. 2) Musk has been consistently anti-subsidy. 3) Trump's point about subsidy dependency is valid. 4) This personal feud is distracting from serious fiscal policy discussions. Let's focus on the economics, not the drama.
+                        FACTS: 1) Government subsidies distort free market competition. 2) Musk has been consistently anti-subsidy. 3) Trump&apos;s point about subsidy dependency is valid. 4) This personal feud is distracting from serious fiscal policy discussions. Let&apos;s focus on the economics, not the drama.
                       </p>
                     </CardContent>
 
@@ -694,7 +694,7 @@ export default function Detail2Col() {
 
                     <CardContent className="px-6">
                       <p className="text-card-foreground">
-                        The Trump-Musk public feud highlights broader tensions over government's role in fostering innovation. Electric vehicle and space industry stocks are experiencing volatility as investors weigh potential policy shifts. Analysis: Could this signal a new approach to federal subsidies?
+                        The Trump-Musk public feud highlights broader tensions over government&apos;s role in fostering innovation. Electric vehicle and space industry stocks are experiencing volatility as investors weigh potential policy shifts. Analysis: Could this signal a new approach to federal subsidies?
                       </p>
                     </CardContent>
 

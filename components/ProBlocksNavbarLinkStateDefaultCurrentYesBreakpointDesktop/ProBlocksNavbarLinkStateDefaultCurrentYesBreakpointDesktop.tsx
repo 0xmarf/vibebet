@@ -4,7 +4,6 @@ import { IconChevronDown2 } from "../IconChevronDown2/IconChevronDown2";
 import { IconCheck } from "../IconCheck/IconCheck";
 import { IconArrowRight } from "../IconArrowRight/IconArrowRight";
 import { BadgeVariantDefaultStateDefault } from "../BadgeVariantDefaultStateDefault/BadgeVariantDefaultStateDefault";
-import { IconChevronDown } from "../IconChevronDown/IconChevronDown";
 
 interface ProBlocksNavbarLinkStateDefaultCurrentYesBreakpointDesktopProps {
   badge?: boolean;
