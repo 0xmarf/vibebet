@@ -2,7 +2,6 @@ import React from "react";
 import "./BreadcrumbSizeMd.css";
 import { IconChevronRight2 } from "../IconChevronRight2/IconChevronRight2";
 import { BreadcrumbBreadcrumbItemVariantLinkStateDefault } from "../BreadcrumbBreadcrumbItemVariantLinkStateDefault/BreadcrumbBreadcrumbItemVariantLinkStateDefault";
-import { IconChevronRight } from "../IconChevronRight/IconChevronRight";
 import { BreadcrumbBreadcrumbItemVariantEllipsisStateDefault } from "../BreadcrumbBreadcrumbItemVariantEllipsisStateDefault/BreadcrumbBreadcrumbItemVariantEllipsisStateDefault";
 import { BreadcrumbBreadcrumbItemVariantDropdownStateDefault } from "../BreadcrumbBreadcrumbItemVariantDropdownStateDefault/BreadcrumbBreadcrumbItemVariantDropdownStateDefault";
 import { BreadcrumbBreadcrumbItemVariantLinkCurrentStateDefault } from "../BreadcrumbBreadcrumbItemVariantLinkCurrentStateDefault/BreadcrumbBreadcrumbItemVariantLinkCurrentStateDefault";
@@ -18,7 +17,6 @@ interface BreadcrumbSizeMdProps {
   component?: React.ReactNode;
   className?: string;
   breadcrumbBreadcrumbItembreadcrumbText?: string;
-  breadcrumbBreadcrumbItemvariant?: string;
 }
 
 export const BreadcrumbSizeMd: React.FC<BreadcrumbSizeMdProps> = ({
@@ -31,22 +29,18 @@ export const BreadcrumbSizeMd: React.FC<BreadcrumbSizeMdProps> = ({
   size = "md",
   component = (
     <BreadcrumbBreadcrumbItemVariantEllipsisStateDefault
-      breadcrumbText="Breadcrumb"
       variant="ellipsis"
       state="default"
     />
   ),
   className = "",
   breadcrumbBreadcrumbItembreadcrumbText,
-  breadcrumbBreadcrumbItemvariant,
-  ...props
 }) => {
   const variantsClassName = "size-" + size;
 
   return (
     <div
       className={"breadcrumb-size-md " + className + " " + variantsClassName}
-      {...props}
     >
       {breadcrumb1 && (
         <>

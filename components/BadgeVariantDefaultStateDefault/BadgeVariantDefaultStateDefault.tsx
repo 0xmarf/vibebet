@@ -2,8 +2,6 @@ import React from "react";
 import "./BadgeVariantDefaultStateDefault.css";
 import { IconCheck2 } from "../IconCheck2/IconCheck2";
 import { IconArrowRight2 } from "../IconArrowRight2/IconArrowRight2";
-import { IconCheck } from "../IconCheck/IconCheck";
-import { IconArrowRight } from "../IconArrowRight/IconArrowRight";
 
 interface BadgeVariantDefaultStateDefaultProps {
   badgeText?: string;
@@ -25,7 +23,6 @@ export const BadgeVariantDefaultStateDefault: React.FC<BadgeVariantDefaultStateD
   variant = "default",
   state = "default",
   className = "",
-  ...props
 }) => {
   const variantsClassName = "variant-" + variant + " state-" + state;
 
@@ -37,7 +34,6 @@ export const BadgeVariantDefaultStateDefault: React.FC<BadgeVariantDefaultStateD
         " " +
         variantsClassName
       }
-      {...props}
     >
       {showLeftIcon && <>{leftIcon}</>}
       <div className="badge">{badgeText} </div>
