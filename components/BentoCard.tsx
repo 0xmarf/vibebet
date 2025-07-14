@@ -23,7 +23,7 @@ export default function BentoCard() {
   ]
 
   return (
-    <Card className="p-6 space-y-6 rounded-xl border hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+    <Card className="p-6 space-y-6 rounded-xl border">
       {/* Metrics Section */}
       <div className="flex gap-6">
         {/* Price */}

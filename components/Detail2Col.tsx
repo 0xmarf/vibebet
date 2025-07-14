@@ -210,6 +210,51 @@ export default function Detail2Col() {
                   </CardFooter>
                 </Card>
 
+                {/* Elon Musk Response */}
+                <Card className="mt-6 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                  <CardHeader className="px-6 py-6">
+                    <div className="flex justify-between items-center">
+                      <div className="flex items-center gap-2">
+                        <Avatar className="h-10 w-10">
+                          <AvatarImage src="https://github.com/shadcn.png" alt="Elon Musk" />
+                        </Avatar>
+                        <div className="flex flex-col gap-0.5">
+                          <h4 className="text-base font-semibold text-card-foreground">Elon Musk</h4>
+                          <div className="flex items-center">
+                            <span className="text-xs font-semibold">@elonmusk</span>
+                          </div>
+                        </div>
+                      </div>
+                      <span className="text-muted-foreground">Jul 02, 9:55PM</span>
+                    </div>
+                  </CardHeader>
+
+                  <CardContent className="px-6">
+                    <p className="text-card-foreground">
+                      Actually, I've been advocating for ending ALL subsidies for years. Let's do it. Also, I'm not from South Africa - I'm from Mars 🚀 But in all seriousness, subsidies distort markets. Let's compete on merit alone. Tesla doesn't need subsidies to win.
+                    </p>
+                  </CardContent>
+
+                  <CardFooter className="px-6 py-6 border-t flex gap-2">
+                    <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                      <Repeat2 className="h-5 w-5" />
+                      <span className="text-muted-foreground">1.2k</span>
+                    </div>
+                    <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                      <MessageSquare className="h-5 w-5" />
+                      <span className="text-muted-foreground">441</span>
+                    </div>
+                    <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                      <Heart className="h-5 w-5" />
+                      <span className="text-muted-foreground">5.8k</span>
+                    </div>
+                    <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                      <Eye className="h-5 w-5" />
+                      <span className="text-muted-foreground">892k</span>
+                    </div>
+                  </CardFooter>
+                </Card>
+
                 <Card className="mt-6 rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
                   <CardHeader className="px-6 py-6">
                     <div className="flex justify-between items-center">
@@ -256,6 +301,51 @@ export default function Detail2Col() {
                       <span className="text-muted-foreground">395k</span>
                     </div>
                   </CardFooter>
+                  </Card>
+
+                  {/* Nancy Pelosi Political Commentary */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Nancy Pelosi" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Nancy Pelosi</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@SpeakerPelosi</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 10:05PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        We must have a serious discussion about government subsidies and their role in advancing American innovation. The fight between political leaders should not overshadow the importance of clean energy and space exploration for our nation's future. Let's focus on policy, not personality.
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">384</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">167</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.9k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">285k</span>
+                      </div>
+                    </CardFooter>
                   </Card>
 
                   {/* Third Tweet - Duplicate of Trump */}
@@ -309,6 +399,51 @@ export default function Detail2Col() {
                     </CardFooter>
                   </Card>
 
+                  {/* Joe Rogan Commentary */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Joe Rogan" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Joe Rogan</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@joerogan</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 10:20PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        This whole Trump vs Elon thing is wild. These are two guys who have completely changed their respective industries, and now they're beefing on social media. Jamie, pull up that clip of Elon smoking weed on the podcast. What a timeline we're living in.
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">2.1k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">698</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">8.4k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.2M</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
                   {/* Fourth Tweet - Duplicate of Clandestine */}
                   <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
                     <CardHeader className="px-6 py-6">
@@ -354,6 +489,231 @@ export default function Detail2Col() {
                       <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
                         <Eye className="h-5 w-5" />
                         <span className="text-muted-foreground">673k</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
+                  {/* Cathie Wood Financial Perspective */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Cathie Wood" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Cathie Wood</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@CathieDWood</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 10:45PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        Political tensions aside, Tesla and SpaceX represent transformative innovation in autonomous vehicles, energy storage, and space exploration. These companies are driving technological convergence that will define the next decade of growth. Focus on fundamentals, not the noise.
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">756</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">234</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">3.2k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">458k</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
+                  {/* Alexandria Ocasio-Cortez on Subsidies */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Alexandria Ocasio-Cortez" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Alexandria Ocasio-Cortez</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@AOC</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 11:12PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        Wait, so we're just going to ignore that fossil fuel companies receive billions in subsidies annually? And the military-industrial complex? But suddenly subsidies for clean energy and space exploration are the problem? Let's have an honest conversation about ALL corporate welfare.
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">4.3k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.8k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">12.7k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">2.1M</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
+                  {/* Ben Shapiro Conservative Analysis */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Ben Shapiro" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Ben Shapiro</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@benshapiro</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 11:28PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        FACTS: 1) Government subsidies distort free market competition. 2) Musk has been consistently anti-subsidy. 3) Trump's point about subsidy dependency is valid. 4) This personal feud is distracting from serious fiscal policy discussions. Let's focus on the economics, not the drama.
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.5k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">892</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">6.1k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">934k</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
+                  {/* Reuters News Update */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Reuters" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Reuters</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@Reuters</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 02, 11:45PM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        BREAKING: Tesla shares down 3.2% in after-hours trading following public dispute between Trump and Musk over government subsidies. SpaceX valuation also under scrutiny as investors assess potential policy impacts. More coverage: reut.rs/trump-musk-feud
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">2.8k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">567</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.4k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">756k</span>
+                      </div>
+                    </CardFooter>
+                  </Card>
+
+                  {/* Wall Street Journal Market Impact */}
+                  <Card className="rounded-xl shadow-md hover:shadow-lg hover:scale-[1.02] transition-all duration-300">
+                    <CardHeader className="px-6 py-6">
+                      <div className="flex justify-between items-center">
+                        <div className="flex items-center gap-2">
+                          <Avatar className="h-10 w-10">
+                            <AvatarImage src="https://github.com/shadcn.png" alt="Wall Street Journal" />
+                          </Avatar>
+                          <div className="flex flex-col gap-0.5">
+                            <h4 className="text-base font-semibold text-card-foreground">Wall Street Journal</h4>
+                            <div className="flex items-center">
+                              <span className="text-xs font-semibold">@WSJ</span>
+                            </div>
+                          </div>
+                        </div>
+                        <span className="text-muted-foreground">Jul 03, 12:05AM</span>
+                      </div>
+                    </CardHeader>
+
+                    <CardContent className="px-6">
+                      <p className="text-card-foreground">
+                        The Trump-Musk public feud highlights broader tensions over government's role in fostering innovation. Electric vehicle and space industry stocks are experiencing volatility as investors weigh potential policy shifts. Analysis: Could this signal a new approach to federal subsidies?
+                      </p>
+                    </CardContent>
+
+                    <CardFooter className="px-6 py-6 border-t flex gap-2">
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Repeat2 className="h-5 w-5" />
+                        <span className="text-muted-foreground">1.9k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <MessageSquare className="h-5 w-5" />
+                        <span className="text-muted-foreground">423</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Heart className="h-5 w-5" />
+                        <span className="text-muted-foreground">2.7k</span>
+                      </div>
+                      <div className="flex items-center gap-2 hover:bg-accent hover:scale-110 transition-all duration-200 cursor-pointer p-2 rounded-md">
+                        <Eye className="h-5 w-5" />
+                        <span className="text-muted-foreground">612k</span>
                       </div>
                     </CardFooter>
                   </Card>

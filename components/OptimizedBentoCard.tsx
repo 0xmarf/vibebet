@@ -15,7 +15,7 @@ export default function OptimizedBentoCard() {
   const [selectedToggle, setSelectedToggle] = useState("buy")
 
   return (
-    <Card className="p-4 sm:p-6 space-y-4 sm:space-y-6 rounded-xl border transition-shadow duration-300 hover:shadow-lg">
+    <Card className="p-4 sm:p-6 space-y-4 sm:space-y-6 rounded-xl border">
       {/* Metrics Section - Responsive layout */}
       <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
         {/* Price */}

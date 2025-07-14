@@ -1,7 +1,7 @@
 "use client"
 
-import OptimizedDetail2Col from "../components/OptimizedDetail2Col"
+import LandingPageDefault from "../components/LandingPageDefault"
 
 export default function Page() {
-  return <OptimizedDetail2Col />
+  return <LandingPageDefault />
 }
